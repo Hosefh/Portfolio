@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import notes from '../assets/portfolio/notes.jpeg'
+// import notes from '../assets/portfolio/notes.jpeg'
 import inventory from '../assets/portfolio/inventory_system.png'
-import pgbh from '../assets/portfolio/pgbh.png'
+import pgbh from '../assets/portfolio/pgbhmonitoring.png'
+import tree from '../assets/portfolio/tree.png'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -18,7 +19,7 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: notes
+            src: tree
         },
         {
             id: 3,
